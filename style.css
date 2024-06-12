@@ -11,8 +11,10 @@
 }
 /* 웹 상의 폰트 파일을 사용하는 경우 */
 @font-face {
-    font-family: "Cafe24Ssurround";
-    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff") format("woff");
+    font-family: 'Cafe24Moyamoya-Regular-v1.0';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/Cafe24Moyamoya-Regular-v1.0.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
     font-family: 'RixYeoljeongdo_Regular';
