@@ -60,7 +60,7 @@ a {
 }
 /* #navmenu 요소에 포함된 a 태그 스타일 설정 */
 #navmenu a {
-    color: #000;
+    color: #ffffff;
 }
 #navmenu a:link {
     text-decoration: none;
