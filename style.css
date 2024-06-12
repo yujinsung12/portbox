@@ -81,15 +81,7 @@ a {
 
 
 }
-#main-image{
-    width: 100%;
-    top: 50%;
-    left: -50%;
-    transform: translate(-50%, -50%);
-    margin-left: -50;
-    margin-right: -50;
-    margin: 50;
-}
+
 #main-text {
     position:relative;
     font-family: "Pretendard-Regular";
