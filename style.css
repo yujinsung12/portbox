@@ -64,19 +64,13 @@ a {
     color: #6e00dc;
 }
 
-
-/* -----------------------------------------------------------------------
-본문 영역
------------------------------------------------------------------------ */
-
 #main-container {
     position: relative;
     width: 960px;
-    margin: 0 auto; /* 박스(#main-container)를 뷰포트의 가로 방향 가운데로 정렬 */
+    margin: 0 auto; 
     padding-top: 200px;
     padding-bottom: 60px;
-    /*background-color: bisque;*/
-}
+    background-color: #F2EBFF;
 #featured-image {
     position: relative;
     width: 100%;
@@ -175,4 +169,5 @@ a {
     #copyright {
         padding-top: 40px;
     }
+}
 }
