@@ -138,24 +138,19 @@ a {
 
 
 
-/* -----------------------------------------------------------------------
-미디어 쿼리(media query) - 반응형 웹 구현
------------------------------------------------------------------------ */
-
-/* 사용자 화면의 뷰포트(viewport) 크기가 1024px보다 작은 경우(최대 1024px) 적용 */
 @media screen and (max-width: 1024px) {
     #header {
         height: 110px;
     }
     #logo {
-        /* 로고를 가운데로 이동 */
+        
         left: 50%;
         transform: translateX(-50%);
         top: 20px;
         font-size: 30px;
     }
     #navmenu {
-        /* 네비게이션 메뉴를 가운데로 이동 */
+        
         left: 50%;
         transform: translateX(-50%);
         bottom: 12px;
