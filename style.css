@@ -24,6 +24,7 @@ body {
     margin: 0; padding: 0;
     font-family: 'DungGeunMo';
     background-color: #6e00dc;
+    background: linear-gradient(to bottom, black,#6e00dc);
 }
 a {
     text-decoration: none;
@@ -68,7 +69,6 @@ a {
 #navmenu a:hover {
     text-decoration: underline;
     color: #6e00dc;
-    background: linear-gradient(to bottom right, black,#6e00dc);
 }
 
 #main-container {
