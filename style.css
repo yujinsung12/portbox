@@ -28,7 +28,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #6e00dc;
 }
 
 
@@ -59,7 +59,7 @@ a {
 #navmenu p {
     margin: 0 10px;
 }
-/* #navmenu 요소에 포함된 a 태그 스타일 설정 */
+
 #navmenu a {
     color: #ffffff;
 }
