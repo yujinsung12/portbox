@@ -146,61 +146,50 @@ a {
     font-size: 16px;
 }
 
-html, body {
+  html, body {
     margin: 0;
     padding: 0;
   }
   
   #wrap {
     min-height: 100vh;
-    position: absolute;
+    position: relative;
     width: 100%; 
     background-color: #f2f2f2;
   }
+  
   section {
     padding-bottom: 105px;
   }
-   
-footer {
-	width: 100%;
-	height: 80px; /* 내용물에 따라 알맞는 값 설정 */
-	bottom: 0px;
-	position: absolute;
-}
-section {
-	padding-bottom: 8px; /* footer의 height값과 동일 */
-}
-  #footer {
+  
+  footer {
     width: 100%;
-    height: 80px;
-    bottom: 0;
+    height: 90px;
+    bottom: 0px;
     position: absolute;
-    border-top: 2px solid #cebcff;
+    border-top: 1px solid #c4c4c4;
     padding-top: 15px;
-    color: #ffffff;
+    color: #808080;
     font-size: 11px;
-    
   }
   
-  #footer a {
+  footer a {
     display: inline-block;
     margin: 0 20px 10px 20px;
-    color: #cebcff; font-size: 11px;
-    font-display: center;
+    color: #808080; font-size: 11px;
   }
   
-  #footer a:visited {
-    color: #cebcff;
+  footer a:visited {
+    color: #808080;
   }
   
-  #footer p {
+  footer p {
     margin-top: 0; margin-bottom: 0;   
-    
   }
   
-  #footer p span {
+  footer p span {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-left: 20px;
   }
 
 @media screen and (max-width: 1024px) {
