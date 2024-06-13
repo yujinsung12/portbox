@@ -161,7 +161,16 @@ html, body {
   section {
     padding-bottom: 105px;
   }
-  
+   
+footer {
+	width: 100%;
+	height: 80px; /* 내용물에 따라 알맞는 값 설정 */
+	bottom: 0px;
+	position: absolute;
+}
+section {
+	padding-bottom: 8px; /* footer의 height값과 동일 */
+}
   #footer {
     width: 100%;
     height: 80px;
@@ -195,17 +204,6 @@ html, body {
     margin-bottom: 20px;
   }
 
-  #wrap {
-    min-height: 100vh;
-    position: relative;
-    width: 100%;
-}
-footer {
-	width: 100%;
-	height: 110px; /* 내용물에 따라 알맞는 값 설정 */
-	bottom: 0px;
-	position: absolute;
-}
 @media screen and (max-width: 1024px) {
     #header {
         height: 110px;
