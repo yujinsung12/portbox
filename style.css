@@ -79,6 +79,7 @@ a {
 
 #main-container {
     position: relative;
+    padding: 30;
     width: 960px;
     margin: 0 auto; 
     padding-top: 200px;
