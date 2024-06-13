@@ -164,7 +164,7 @@ html, body {
     width: 100%;
     height: 80px;
     bottom: 0;
-    position: fixed;
+    position: absolute;
     border-top: 2px solid #cebcff;
     padding-top: 15px;
     color: #ffffff;
