@@ -174,23 +174,23 @@ html, body {
     
   }
   
-  footer a {
+  #footer a {
     display: inline-block;
     margin: 0 20px 10px 20px;
     color: #cebcff; font-size: 11px;
     font-display: center;
   }
   
-  footer a:visited {
+  #footer a:visited {
     color: #cebcff;
   }
   
-  footer p {
+  #footer p {
     margin-top: 0; margin-bottom: 0;   
     
   }
   
-  footer p span {
+  #footer p span {
     display: inline-block;
     margin-left: 20px;
   }
