@@ -16,6 +16,12 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html {
     scroll-behavior: smooth; /* 스크롤 시 부드럽게 이동 */
@@ -84,7 +90,7 @@ a {
 
 #main-text {
     position:relative;
-    font-family: "Pretendard-Regular";
+    font-family: "NanumSquareNeo-Variable";
     font-size: 20px;
     line-height: 250%;
     letter-spacing: 10;
