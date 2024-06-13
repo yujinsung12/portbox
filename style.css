@@ -165,20 +165,20 @@ html, body {
     height: 80px;
     bottom: 0;
     position: fixed;
-    border-top: 1px solid #c4c4c4;
+    border-top: 2px solid #cebcff;
     padding-top: 15px;
-    color: #808080;
+    color: #ffffff;
     font-size: 11px;
   }
   
   footer a {
     display: inline-block;
     margin: 0 20px 10px 20px;
-    color: #808080; font-size: 11px;
+    color: #cebcff; font-size: 11px;
   }
   
   footer a:visited {
-    color: #808080;
+    color: #cebcff;
   }
   
   footer p {
