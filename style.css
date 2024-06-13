@@ -176,6 +176,7 @@ html, body {
     display: inline-block;
     margin: 0 20px 10px 20px;
     color: #cebcff; font-size: 11px;
+    font-display: center;
   }
   
   footer a:visited {
@@ -184,19 +185,14 @@ html, body {
   
   footer p {
     margin-top: 0; margin-bottom: 0;   
+    
   }
   
   footer p span {
     display: inline-block;
     margin-left: 20px;
   }
-  #navmenu {
-    display: flex;
-    position: absolute;
-    bottom: 16px;
-    right: 16px;
-    padding-right: 10px;
-}
+  
 @media screen and (max-width: 1024px) {
     #header {
         height: 110px;
