@@ -192,7 +192,7 @@ html, body {
   
   #footer p span {
     display: inline-block;
-    margin-left: 20px;
+    margin-bottom: 20px;
   }
   
 @media screen and (max-width: 1024px) {
